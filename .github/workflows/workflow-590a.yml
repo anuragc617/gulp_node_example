@@ -25,7 +25,7 @@ jobs:
       working-directory: .
       run: |
         npm install
-        gulp default --gulpfile gulpfile.js
+        gulp default --gulpfile Gulpfile.js
 
     # deploy web app
     - uses: azure/webapps-deploy@v1
